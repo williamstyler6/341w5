@@ -10,7 +10,8 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const MONGODB_URI =
-  'mongodb+srv://maximilian:9u4biljMQc4jjqbe@cluster0-ntrwp.mongodb.net/shop';
+  //'mongodb+srv://maximilian:9u4biljMQc4jjqbe@cluster0-ntrwp.mongodb.net/shop';
+  'mongodb+srv://tylerwilliams6:bp7yEzdJ8qxKw6og@341cluster.u9uur.mongodb.net/shop';
 
 const app = express();
 const store = new MongoDBStore({
